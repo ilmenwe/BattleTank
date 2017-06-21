@@ -14,6 +14,8 @@ public:
 	// Sets default values for this pawn's properties
 	ATank();
 
+	void AimAt(const FVector& target);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
